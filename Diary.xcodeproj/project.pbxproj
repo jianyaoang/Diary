@@ -22,6 +22,7 @@
 		41ADEECC1985A49800C7FD0D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41ADEEB01985A49700C7FD0D /* CoreData.framework */; };
 		41ADEED41985A49800C7FD0D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41ADEED21985A49800C7FD0D /* InfoPlist.strings */; };
 		41ADEED61985A49800C7FD0D /* DiaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41ADEED51985A49800C7FD0D /* DiaryTests.m */; };
+		41ADEEE11985A5F400C7FD0D /* CoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 41ADEEE01985A5F400C7FD0D /* CoreDataStack.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		41ADEED11985A49800C7FD0D /* DiaryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DiaryTests-Info.plist"; sourceTree = "<group>"; };
 		41ADEED31985A49800C7FD0D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		41ADEED51985A49800C7FD0D /* DiaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiaryTests.m; sourceTree = "<group>"; };
+		41ADEEDF1985A5F400C7FD0D /* CoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataStack.h; sourceTree = "<group>"; };
+		41ADEEE01985A5F400C7FD0D /* CoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataStack.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 			children = (
 				41ADEEBB1985A49800C7FD0D /* AppDelegate.h */,
 				41ADEEBC1985A49800C7FD0D /* AppDelegate.m */,
+				41ADEEDF1985A5F400C7FD0D /* CoreDataStack.h */,
+				41ADEEE01985A5F400C7FD0D /* CoreDataStack.m */,
 				41ADEEC11985A49800C7FD0D /* Images.xcassets */,
 				41ADEEBE1985A49800C7FD0D /* Diary.xcdatamodeld */,
 				41ADEEB31985A49800C7FD0D /* Supporting Files */,
@@ -251,6 +256,7 @@
 				41ADEEC01985A49800C7FD0D /* Diary.xcdatamodeld in Sources */,
 				41ADEEBD1985A49800C7FD0D /* AppDelegate.m in Sources */,
 				41ADEEB91985A49800C7FD0D /* main.m in Sources */,
+				41ADEEE11985A5F400C7FD0D /* CoreDataStack.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
