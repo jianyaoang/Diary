@@ -23,6 +23,7 @@
 		41ADEED41985A49800C7FD0D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41ADEED21985A49800C7FD0D /* InfoPlist.strings */; };
 		41ADEED61985A49800C7FD0D /* DiaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41ADEED51985A49800C7FD0D /* DiaryTests.m */; };
 		41ADEEE11985A5F400C7FD0D /* CoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 41ADEEE01985A5F400C7FD0D /* CoreDataStack.m */; };
+		41ADEEE41985AB3C00C7FD0D /* DiaryEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 41ADEEE31985AB3C00C7FD0D /* DiaryEntry.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		41ADEED51985A49800C7FD0D /* DiaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiaryTests.m; sourceTree = "<group>"; };
 		41ADEEDF1985A5F400C7FD0D /* CoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataStack.h; sourceTree = "<group>"; };
 		41ADEEE01985A5F400C7FD0D /* CoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataStack.m; sourceTree = "<group>"; };
+		41ADEEE21985AB3C00C7FD0D /* DiaryEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiaryEntry.h; sourceTree = "<group>"; };
+		41ADEEE31985AB3C00C7FD0D /* DiaryEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiaryEntry.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,8 @@
 				41ADEEE01985A5F400C7FD0D /* CoreDataStack.m */,
 				41ADEEC11985A49800C7FD0D /* Images.xcassets */,
 				41ADEEBE1985A49800C7FD0D /* Diary.xcdatamodeld */,
+				41ADEEE21985AB3C00C7FD0D /* DiaryEntry.h */,
+				41ADEEE31985AB3C00C7FD0D /* DiaryEntry.m */,
 				41ADEEB31985A49800C7FD0D /* Supporting Files */,
 			);
 			path = Diary;
@@ -255,6 +260,7 @@
 			files = (
 				41ADEEC01985A49800C7FD0D /* Diary.xcdatamodeld in Sources */,
 				41ADEEBD1985A49800C7FD0D /* AppDelegate.m in Sources */,
+				41ADEEE41985AB3C00C7FD0D /* DiaryEntry.m in Sources */,
 				41ADEEB91985A49800C7FD0D /* main.m in Sources */,
 				41ADEEE11985A5F400C7FD0D /* CoreDataStack.m in Sources */,
 			);
