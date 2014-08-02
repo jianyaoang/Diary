@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41152FF3198D9C5D006BDDAF /* EntryListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41152FF2198D9C5D006BDDAF /* EntryListViewController.m */; };
 		41ADEEAB1985A49700C7FD0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41ADEEAA1985A49700C7FD0D /* Foundation.framework */; };
 		41ADEEAD1985A49700C7FD0D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41ADEEAC1985A49700C7FD0D /* CoreGraphics.framework */; };
 		41ADEEAF1985A49700C7FD0D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41ADEEAE1985A49700C7FD0D /* UIKit.framework */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		41152FF1198D9C5D006BDDAF /* EntryListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntryListViewController.h; sourceTree = "<group>"; };
+		41152FF2198D9C5D006BDDAF /* EntryListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryListViewController.m; sourceTree = "<group>"; };
 		41ADEEA71985A49700C7FD0D /* Diary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41ADEEAA1985A49700C7FD0D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		41ADEEAC1985A49700C7FD0D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -136,6 +139,8 @@
 				41ADEEE51985B1F400C7FD0D /* MainStoryboard.storyboard */,
 				41ADEEE71985B2F800C7FD0D /* NewEntryViewController.h */,
 				41ADEEE81985B2F800C7FD0D /* NewEntryViewController.m */,
+				41152FF1198D9C5D006BDDAF /* EntryListViewController.h */,
+				41152FF2198D9C5D006BDDAF /* EntryListViewController.m */,
 				41ADEEE31985AB3C00C7FD0D /* DiaryEntry.m */,
 				41ADEEB31985A49800C7FD0D /* Supporting Files */,
 			);
@@ -272,6 +277,7 @@
 				41ADEEE91985B2F800C7FD0D /* NewEntryViewController.m in Sources */,
 				41ADEEE41985AB3C00C7FD0D /* DiaryEntry.m in Sources */,
 				41ADEEB91985A49800C7FD0D /* main.m in Sources */,
+				41152FF3198D9C5D006BDDAF /* EntryListViewController.m in Sources */,
 				41ADEEE11985A5F400C7FD0D /* CoreDataStack.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -469,6 +475,7 @@
 				41ADEEDB1985A49800C7FD0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		41ADEEDC1985A49800C7FD0D /* Build configuration list for PBXNativeTarget "DiaryTests" */ = {
 			isa = XCConfigurationList;
@@ -477,6 +484,7 @@
 				41ADEEDE1985A49800C7FD0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
