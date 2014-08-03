@@ -9,6 +9,7 @@
 #import "EntryListViewController.h"
 #import "CoreDataStack.h"
 #import "DiaryEntry.h"
+#import "NewEntryViewController.h"
 
 @interface EntryListViewController () <NSFetchedResultsControllerDelegate>
 
@@ -178,16 +179,20 @@
  }
  */
 
-/*
- #pragma mark - Navigation
- 
- // In a story board-based application, you will often want to do a little preparation before navigation
- - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
  {
- // Get the new view controller using [segue destinationViewController].
- // Pass the selected object to the new view controller.
+     if ([segue.identifier isEqualToString:@"Edit"])
+     {
+         UITableViewCell *cell = sender;
+         NSIndexPath *indexPath = [self.tableView indexPathForCell:cell];
+         
+         UINavigationController *navigationController = segue.destinationViewController;
+         NewEntryViewController *newEntryViewController = (NewEntryViewController*)navigationController.topViewController;
+         newEntryViewController.entry = [self.fetchedResultsController objectAtIndexPath:indexPath];
+         
+     }
  }
  
- */
+
 
 @end
