@@ -136,12 +136,12 @@
 				41ADEEC11985A49800C7FD0D /* Images.xcassets */,
 				41ADEEBE1985A49800C7FD0D /* Diary.xcdatamodeld */,
 				41ADEEE21985AB3C00C7FD0D /* DiaryEntry.h */,
+				41ADEEE31985AB3C00C7FD0D /* DiaryEntry.m */,
 				41ADEEE51985B1F400C7FD0D /* MainStoryboard.storyboard */,
 				41ADEEE71985B2F800C7FD0D /* NewEntryViewController.h */,
 				41ADEEE81985B2F800C7FD0D /* NewEntryViewController.m */,
 				41152FF1198D9C5D006BDDAF /* EntryListViewController.h */,
 				41152FF2198D9C5D006BDDAF /* EntryListViewController.m */,
-				41ADEEE31985AB3C00C7FD0D /* DiaryEntry.m */,
 				41ADEEB31985A49800C7FD0D /* Supporting Files */,
 			);
 			path = Diary;
